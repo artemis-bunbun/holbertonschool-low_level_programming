@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: this c programm prints "with proper grammar, but the outcome is a piece of art,"
+ * Description: print with proper grammar, but the outcome is a piece of art
  *
  * Return: Always 0 (Success)
  */
