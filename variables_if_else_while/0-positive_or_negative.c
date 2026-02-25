@@ -4,7 +4,8 @@
 /**
  * main - Entry point
  *
- * Description: 
+ * Description: generates a random number, +or-
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
