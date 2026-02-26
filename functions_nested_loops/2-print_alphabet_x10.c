@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * 
+ *
  *  main - Entry point
- * 
+ *
  * Description: main.c file for task 2
  * Return: Always 0 (Success)
  */
