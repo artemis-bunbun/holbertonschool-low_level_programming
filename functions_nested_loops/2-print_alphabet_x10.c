@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: main.c file for task 2
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - prints the alphabet in lowercase 10 times
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
