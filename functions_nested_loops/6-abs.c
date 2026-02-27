@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: program for task 6 - absolute value
- * Return: Always 0 (Success)
+ * _abs - computes the absolute value of an integer
+ * @n: the integer to compute
+ * Return: the absolute value of n
  */
 
 int _abs(int n)
