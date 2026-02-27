@@ -1,22 +1,17 @@
 #include "main.h"
 /**
- * main - entry point
- * Description: isalpha.c file for task 4
- * Return: Always 0 (Success)
+ * _isalpha - checks for alphabetic character
+ * @c: the character to check
+ * Return: 1 if c is alphabetic, 0 otherwise
  */
-int main(void)
-{	char c;
-	for (c = 'A'; c <= 'z'; c++)
+int _isalpha(int c)
+{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		if (_isalpha(c))
-		{
-			_putchar('1');
-		}
-		else
-		{
-			_putchar('0');
-		}
+		return (1);
 	}
-	_putchar('\n');
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
