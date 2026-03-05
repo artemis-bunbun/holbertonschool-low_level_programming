@@ -15,5 +15,11 @@ int main(void)
     printf("\n");
     printf("Choice: %d", choice);
     printf("\n");
+
+    if (choice == 0)
+    {
+        printf("Bye!\n");
+    }
+    
     return (0);
 }
