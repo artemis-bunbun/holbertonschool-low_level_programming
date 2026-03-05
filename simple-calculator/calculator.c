@@ -4,8 +4,8 @@ int main(void)
 {
     int choice = 0;
     int calc = 1;
-    int a;
-    int b;
+    int a = 1;
+    int b = 1;
     int sum;
     printf("Simple Calculator\n");
     printf("\n");
@@ -38,7 +38,51 @@ int main(void)
             printf("Result: %d\n", sum);
             calc = 0;
         }
-        
+        if (choice == 2)
+        {
+            printf("enter number for A:\n");
+            scanf("%d", &a);
+            printf("enter number for B:\n");
+            scanf("%d", &b);
+            sum = a - b;
+            printf("Result: %d\n", sum);
+            calc = 0;
+        }
+        if (choice == 3)
+        {
+            printf("enter number for A:\n");
+            scanf("%d", &a);
+            printf("enter number for B:\n");
+            scanf("%d", &b);
+            sum = a * b;
+            printf("Result: %d\n", sum);
+            calc = 0;
+        }
+        if (choice == 4)
+        {
+            printf("enter number for A:\n");
+            scanf("%d", &a);
+            if (a == 0)
+            {
+                printf("You cannot devide by 0!\n\n");
+            }
+            else
+            {
+                printf("enter number for B:\n");
+                scanf("%d", &b);
+                if (b == 0)
+                {
+                    printf("You cannot devide by 0!\n\n");
+                    choice = 0;
+                }
+                else
+                {
+                    sum = a / b;
+                    printf("Result: %d\n", sum);
+                    calc = 0;
+                }
+            }
+        }
     }
     return (0);
 }
