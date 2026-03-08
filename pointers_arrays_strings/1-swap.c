@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * Description: this script swaps the values to two ints
- * @a: pointer to int 1
- * @b: poniter to int 2
+ * swap_int - swaps the values of two integers
+ * @a: pointer to first int
+ * @b: pointer to second int
+ *
+ * Return: void
  */
-
 void swap_int(int *a, int *b)
 {
 	int temp;
+
 	temp = *a;
 	*a = *b;
 	*b = temp;
