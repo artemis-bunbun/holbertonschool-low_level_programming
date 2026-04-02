@@ -4,6 +4,11 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * struct op - operator and function pair
+ * @op: operator string
+ * @f: pointer to operation function
+ */
 typedef struct op
 {
 	char *op;
